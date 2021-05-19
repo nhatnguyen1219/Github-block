@@ -1,0 +1,51 @@
+
+/* waht's the difference between align-item and justify content ? */
+#container{
+    background-color: grey;
+    padding: 10px;
+    width: 50%;
+    height: 70%;
+
+}
+#img1row {
+    margin: 20px;
+    background-color:blue;
+    
+    
+}
+
+#img2row {
+    
+    margin: 20px;
+    background-color:plum;
+   
+}
+#img3row {
+    margin: 20px;
+    background-color: white;
+    
+}
+
+#img1box{
+    padding: 10px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#img2box{
+    padding: 10px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#title{
+ text-align: center;
+
+
+}
